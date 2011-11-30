@@ -11,12 +11,12 @@ public class FooBarQix3 {
     /*
   * norm retourne la chaine s si i est egal a 0, retourne une chaine vide sinon
   */
-    public static String norm(String s, int i) {
+    private static final String norm(String s, int i) {
         int r = (1 / (1 + Math.abs(i)));
         return s.substring((1 - r) * s.length());
     }
 
-    public static String convert(int i) {
+    public static final String convert(int i) {
         String s = norm("Foo", i % 3); // i est divible par 3
         s = s + norm("Bar", i % 5); // i est divible par 5
         s += norm("Qix", i % 7); // i est divible par 7

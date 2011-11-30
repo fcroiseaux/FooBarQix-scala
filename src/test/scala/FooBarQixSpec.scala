@@ -4,7 +4,7 @@ import fcx.codestory.FooBarQix3
 
 class FooBarQixSpec extends Spec {
 
-  describe("FooBarQix") {
+  describe("Unit tests of FooBarQix2.java") {
 
     it("1 --> 1") {
       assert(FooBarQix2.convert(1) == ("1"))
@@ -56,7 +56,7 @@ class FooBarQixSpec extends Spec {
     }
   }
 
-  describe("FooBarQix3 java") {
+  describe("Unit tests of FooBarQix3.java") {
 
     it("1 --> 1") {
       assert(FooBarQix3.convert(1) == ("1"))
